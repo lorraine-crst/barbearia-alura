@@ -1,53 +1,151 @@
 @charset UTF-8;
 
-img#banner{
-  width: 100%;
+header{
+    background: bisque;
+    padding: 20px 0;
 }
 
-div.principal{
-  background: #cccccc;
-  padding: 30px;
+div.caixa{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
 }
 
-h1#titulo-principal{
-  padding-left: 20px;
+nav{
+    position: absolute;
+    top: 110px;
+    right: 35px;
 }
 
- .titulo-centralizado {
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a{
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover{
+  color: coral;
+  text-decoration:underline;
+}
+
+.produtos {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.produtos li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius:15px;
+  }
+  
+.produtos li:hover {
+    border-color:coral;   
+} 
+
+.produtos li:active {
+    border-color: #088c19;
+}
+
+.produtos li:hover h2{
+    font-size: 34px;
+}
+
+.produtos h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.produto-descricao{
+   font-size: 18px;  
+}
+
+.produto-preco{
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+footer{
   text-align: center;
+  background-color: bisque;
+  padding: 40px 0;
 }
 
-p {
-text-align: center;
+footer p#copyright{
+  color: black;
+  font-size: 13px;
+  margin-top: 20px;
 }
 
-p#meio{
-   text-align: center;
-   font-size: 20px;
+main{
+  width: 940px;
+  margin: 0 auto;
 }
 
-em strong{
-  color: indianred;
+form{
+  margin: 40px 0;
 }
 
-
-ul.itens{
-  font-style: italic;
+form label, form legend{
+  display: block;
+  font-size: 20px;
+  margin-bottom: 10px;
 }
 
-ul{
-  display: inline-block;
-  vertical-align: top;
-  width: 20%;
-  margin-right: 15%;
+.input-padrao {
+  display: block;
+  margin-bottom: 20px;
+  padding: 10px 25px;
+  width: 50%;
 }
 
-div.beneficios{
-  background:#FFFFFF;
+.checkbox{
   padding: 20px;
 }
 
-
-img#beneficio{
-  width: 50%
+.enviar{
+  width: 40%;
+  padding: 15px 0;
+  background: olive;
+  color: wheat;
+  font-weight: bold;
+  font-size: 18px;
+  border: none;
+  border-radius: 6px;
+  transition: 0.8s all;
+  cursor: pointer;
 }
+
+.enviar:hover{
+  background: darkolivegreen;
+  transform: scale(1.1);
+}
+
+table{
+  margin: 20px 0 40px;
+}
+
+thead {
+  background: #555555;
+  color: white;
+  font-weight:bold;
+}
+td, th{
+   border: 1px solid #000000;
+   padding: 8px 15px
+ }
