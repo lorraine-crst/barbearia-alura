@@ -1,53 +1,50 @@
-@charset UTF-8;
+@charset "UTF-8";
 
-img#banner{
+#banner {
   width: 100%;
 }
 
-div.principal{
+.principal {
   background: #cccccc;
   padding: 30px;
 }
 
-h1#titulo-principal{
+h1#titulo-principal {
   padding-left: 20px;
 }
 
- .titulo-centralizado {
+.titulo-centralizado {
   text-align: center;
 }
 
 p {
-text-align: center;
+  text-align: center;
 }
 
-p#meio{
-   text-align: center;
-   font-size: 20px;
+p#meio {
+  font-size: 20px;
 }
 
-em strong{
+em strong {
   color: indianred;
 }
 
-
-ul.itens{
+ul.itens {
   font-style: italic;
 }
 
-ul{
+ul {
   display: inline-block;
   vertical-align: top;
   width: 20%;
   margin-right: 15%;
 }
 
-div.beneficios{
-  background:#FFFFFF;
+div.beneficios {
+  background: #ffffff;
   padding: 20px;
 }
 
-
-img#beneficio{
-  width: 50%
+img#beneficio {
+  width: 50%;
 }
